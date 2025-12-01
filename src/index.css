@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/* Project base resets */
+* {
+  box-sizing: border-box;
+}
+
+/* Font family variables and utility classes */
+:root {
+  --font-roboto: "Roboto", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+  --font-dm-sans: "DM Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
+.font-roboto { font-family: var(--font-roboto); }
+.font-heading { font-family: var(--font-dm-sans); }
