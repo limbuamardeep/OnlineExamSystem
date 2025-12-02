@@ -42,7 +42,10 @@ export const ExploreExam = () => {
           </div>
           <div className="bg-[#FFF2E6] px-10 py-10">
             <div>
-              <img src="Physics.svg" className="w-[78px] h-[74px] object-fill" />
+              <img
+                src="Physics.svg"
+                className="w-[78px] h-[74px] object-fill"
+              />
             </div>
             <div className="font-bold text-[24px] pt-4">Physics</div>
             <div className="pt-2 text-[16px] text-[#333333]">

@@ -37,7 +37,9 @@ export const Footer = () => {
             <button className="bg-[#18A0FB] rounded-md text-white px-6 py-2 w-full h-auto">
               Signup
             </button>
-            <button className="border border-blue-400 px-6 py-2 rounded-md flex justify-center mt-4 h-auto w-full">Login</button>
+            <button className="border border-blue-400 px-6 py-2 rounded-md flex justify-center mt-4 h-auto w-full">
+              Login
+            </button>
           </div>
         </div>
       </div>
@@ -45,19 +47,19 @@ export const Footer = () => {
       <div className="flex flex-row justify-between mt-4 w-full">
         <div>© Online Exam, Inc. 2026. We love our users!</div>
         <div className="flex flex-row gap-2 justify-center items-center">
-            <div className="text-gray-600 font-medium">Follow us: </div>
-            <div className="w-8 h-8 rounded-full overflow-hidden hover:opacity-80 transition-opacity cursor-pointer">
-              <img src="facebook.webp" className="w-full h-full object-cover"/>
-            </div>
-            <div className="w-8 h-8 rounded-full overflow-hidden hover:opacity-80 transition-opacity cursor-pointer">
-              <img src="instagram.jfif" className="w-full h-full object-cover"/>
-            </div>
-            <div className="w-6 h-6 rounded-full overflow-hidden hover:opacity-80 transition-opacity cursor-pointer">
-              <img src="xlogo.jfif" className="w-full h-full object-cover"/>
-            </div>
-            <div className="w-7 h-7 rounded-full overflow-hidden hover:opacity-80 transition-opacity cursor-pointer">
-              <img src="linkedin.png" className="w-full h-full object-cover"/>
-            </div>
+          <div className="text-gray-600 font-medium">Follow us: </div>
+          <div className="w-8 h-8 rounded-full overflow-hidden hover:opacity-80 transition-opacity cursor-pointer">
+            <img src="facebook.webp" className="w-full h-full object-cover" />
+          </div>
+          <div className="w-8 h-8 rounded-full overflow-hidden hover:opacity-80 transition-opacity cursor-pointer">
+            <img src="instagram.jfif" className="w-full h-full object-cover" />
+          </div>
+          <div className="w-6 h-6 rounded-full overflow-hidden hover:opacity-80 transition-opacity cursor-pointer">
+            <img src="xlogo.jfif" className="w-full h-full object-cover" />
+          </div>
+          <div className="w-7 h-7 rounded-full overflow-hidden hover:opacity-80 transition-opacity cursor-pointer">
+            <img src="linkedin.png" className="w-full h-full object-cover" />
+          </div>
         </div>
       </div>
     </div>

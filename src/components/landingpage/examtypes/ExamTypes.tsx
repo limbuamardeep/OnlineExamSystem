@@ -11,7 +11,9 @@ export const ExamTypes = () => {
         <div>
           <img src="onlineteacher.png" />
         </div>
-        <div className="font-bold text-[40px] text-white font-heading">Bank Exam</div>
+        <div className="font-bold text-[40px] text-white font-heading">
+          Bank Exam
+        </div>
       </div>
       <div className="absolute w-[370px] h-auto bg-[#DBEDF5] flex flex-col justify-center items-center px-10 py-6 rounded-lg top-90 left-10">
         <div>

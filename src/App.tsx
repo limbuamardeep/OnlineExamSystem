@@ -2,7 +2,11 @@
 import './App.css'
 import { Footer } from './components/footer/Footer'
 import { DesktopNavbar} from './components/navbar/DesktopNavbar'
-import { LandingPage } from './page/landing-page'
+import { LandingPage } from './page/LandingPage'
+import { SignIn } from './page/Signin'
+import { SignUpPage } from './page/SignUpPage'
+
+
 
 function App() {
 
@@ -10,6 +14,8 @@ function App() {
     <>
       <DesktopNavbar/>
       <LandingPage/>
+      <SignIn/>
+      <SignUpPage/>
       <Footer/>
     </>
   )
